@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge</title>
+    <style>
+        :root{
+            padding:0px;
+            margin:0px;
+            box-sizing: border-box;
+            font-family: "hanken grotesk";
+        }
+        body{
+             min-height: 100vh;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             background-color: var(pale-blue);
+        }
+        .card{
+            box-shadow: rgb (0,0,0,.24)0px 3px 8px;
+            border-radius: 2rem;
+            width: 650px;
+            background-color: var(white);
+        }
+        .card.container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .result{
+            width: 50%;
+            padding: 1.5rem 2rem;
+            border-radius: 2rem;
+            background: linear-gradient(to bottom,var(--light-slate-blue-background),var(--light-royal-blue-background));
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+        }
+            
+        
+         
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-container">
+
+            <section class="result">
+                <h3 class="title">your result</h3>
+                <div class="circle">
+                    <h1>76</h1>
+                    <p>of 100</p>
+
+                </div>
+                <b>great</b>
+                <p class="info">
+                    you scored higher than 65% of the people who have taken these tests, 
+                </p>
+            </section>
+
+            <section class="summary">
+                <h3 class="title">summary</h3>
+                <div class="rows">
+                    <div class="row">
+                        <div class="badge">
+                            <img src="./assets/images/icon-reaction.svg" alt="icon">
+                            <b>reaction</b>
+                            <p><b>80</b> / 100</p>
+                        </div>
+                        
+                    <div class="row">
+                        <div class="badge">
+                            <img src="./assets/images/icon-reaction.svg" alt="icon">
+                            <b>memory</b>
+                            <p><b>92</b> / 100</p>
+                        </div>
+                        
+                    <div class="row">
+                        <div class="badge">
+                            <img src="./assets/images/icon-reaction.svg" alt="icon">
+                            <b>verbal</b>
+                            <p><b>61</b> / 100</p>
+                        </div>
+                        
+                    <div class="row">
+                        <div class="badge">
+                            <img src="./assets/images/icon-reaction.svg" alt="icon">
+                            <b>visual</b>
+                            <p><b>72</b> / 100</p>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="btn">continue</button>
+
+            </section>
+
+        </div>
+    </div>
+    
+</body>
+</html>

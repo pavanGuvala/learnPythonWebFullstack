@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jss example</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #container{
+            width:600px;
+            height:500px;
+            border:2px solid greenyellow;
+            margin:auto;
+        } 
+        #left-child{
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            background-color: blue;
+            height: 350px;
+            color:aqua;
+            border-radius: 10px;
+        }
+        #right-child{
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+            height:100%;
+            border-radius: 10px;
+        }
+        .left-child-item{
+            margin:40px auto 40px auto; 
+        }
+        .right-child-item{
+            margin:40px 0px 40px 0px;
+        }
+        .box{
+            width: 200px;
+            height: 9px;
+            margin: 5px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .box1{
+            background-color: rgb(235, 83, 13);  
+            
+        }
+        .box2{
+            background-color: rgb(234, 234, 9);
+        }
+        .box3{
+            background-color: rgb(7, 238, 238);
+        }
+        .box4{
+            background-color: rgb(13, 13, 227);
+        }
+
+        .score{
+            width:50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid white;
+
+        }
+        button{
+            border:0;
+            background-color: black;
+            color:white;
+            border-radius: 5px;
+            padding: 5px;
+            width:200px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <div id="left-child">
+            <div class="left-child-item">yourchild</div>
+            <div class="left-child-item">score 76</div>
+            <div class="left-child-item">great</div>
+            <div class="left-child-item">you scored higherthan 65 of people who have taken these tests</div>
+        </div>
+        <div id="right-child">
+            <div class="right-child-item">summary</div>
+            <div id="right-child-item">
+
+            <div class="box box1">1</div>
+            <div class="box box2">2</div>
+            <div class="box box3">3</div>
+            <div class="box box4">4</div>
+        </div>
+        <div class='right-child-item'>
+            <button> continue </button>
+
+
+        </div>
+    </div>
+</body>
+</html>
